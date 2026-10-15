@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Academic Evaluation Meta Tags -->
+  <title>Parth Jirapure | Student Developer Portfolio | SIT Nagpur</title>
+  <meta name="description" content="Personal portfolio of Parth Jirapure, 3rd-year B.Tech student at Symbiosis Institute of Technology, Nagpur. Specializing in AI/ML, Data Structures, and Linux System Administration.">
+  <meta name="author" content="Parth P. Jirapure">
+  <meta name="keywords" content="Parth Jirapure, SIT Nagpur, Symbiosis Institute of Technology, B.Tech Portfolio, AI/ML, Python, Red Hat RH124, Infosys Springboard, Student Developer">
+
+  <!-- Google Fonts: Plus Jakarta Sans for typography, JetBrains Mono for code, & Caveat for human hand-drawn notes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip to Main Content for Accessibility -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- ========================================================
+       1. NAVBAR SECTION
+       ======================================================== -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <!-- Personal Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Parth Jirapure Portfolio Home">
+        <span class="brand-monogram">PJ</span>
+        <span class="brand-details">
+          <span class="brand-name">Parth Jirapure</span>
+          <span class="brand-tag">SIT Nagpur &bull; 3rd Year</span>
+        </span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item nav-resume-item"><a href="#resume" class="nav-link">Resume</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item nav-mobile-socials">
+            <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="nav-mobile-social-link" title="GitHub: ParthJirapure">GitHub</a>
+            <span class="nav-mobile-divider">&bull;</span>
+            <a href="https://linkedin.com/in/parth-p-jirapure-3142ab435" target="_blank" rel="noopener noreferrer" class="nav-mobile-social-link" title="LinkedIn: Parth P. Jirapure">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Nav Utility Actions -->
+      <div class="nav-actions">
+        <!-- Top Social Links: GitHub & LinkedIn -->
+        <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="icon-button nav-social-link" aria-label="GitHub Profile" title="GitHub: ParthJirapure">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+
+        <a href="https://linkedin.com/in/parth-p-jirapure-3142ab435" target="_blank" rel="noopener noreferrer" class="icon-button nav-social-link" aria-label="LinkedIn Profile" title="LinkedIn: Parth P. Jirapure">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="icon-button" aria-label="Toggle light or dark theme" title="Toggle Theme">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="icon-button mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       MAIN CONTENT CONTAINER
+       ======================================================== -->
+  <main id="main-content">
+
+    <!-- ========================================================
+         2. HERO / HOME SECTION
+         ======================================================== -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Available for Software &amp; AI/ML Engineering Roles &bull; Batch 2026</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Parth P. Jirapure</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Software Engineer &bull; Applied AI &amp; Systems Practitioner
+          </p>
+
+          <p class="hero-description">
+            Computer Science undergraduate at Symbiosis Institute of Technology, Nagpur, specializing in Artificial Intelligence and Machine Learning, with hands-on experience in developing and benchmarking machine learning models and engineering scalable, production-ready cloud applications across platforms.
+          </p>
+
+          <!-- Professional Key Highlights Grid -->
+          <div class="hero-highlights-grid">
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-label">Academics</span>
+                <span class="highlight-val">B.Tech CSE (AI &amp; ML)</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-label">Industry Training</span>
+                <span class="highlight-val">Ex-AI/ML Intern @ Maincrafts Tech</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-label">Systems Certification</span>
+                <span class="highlight-val">Red Hat RH124 &amp; AD141 Verified</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-label">Advanced Coursework</span>
+                <span class="highlight-val">Mastering Agentic AI &bull; Infosys DSA</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="assets/parth-jirapure-resume.pdf" download="Parth_Jirapure_Resume.pdf" class="btn btn-secondary" title="Download official PDF resume">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><polyline points="9 15 12 18 15 15"></polyline></svg>
+              <span>Download CV (PDF)</span>
+            </a>
+            <a href="#contact" class="btn btn-outline-action">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Hero Social Quick Links Strip -->
+          <div class="hero-social-strip">
+            <span class="hero-social-label">Profiles:</span>
+            <div class="hero-social-links">
+              <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="hero-social-btn" title="GitHub: ParthJirapure">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/parth-p-jirapure-3142ab435" target="_blank" rel="noopener noreferrer" class="hero-social-btn" title="LinkedIn: Parth P. Jirapure">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Profile Column -->
+        <div class="hero-visual reveal-on-scroll">
+          <div class="profile-card-wrapper">
+            <div class="profile-glow-ring"></div>
+            <div class="profile-frame">
+              <img 
+                src="assets/parth-round.png" 
+                alt="Parth Jirapure - B.Tech CSE (AI &amp; ML) Student Developer at SIT Nagpur" 
+                class="profile-img"
+                id="profile-image"
+                onerror="this.classList.add('img-fallback-hidden'); document.getElementById('profile-avatar-fallback').classList.remove('d-none');"
+              >
+              <!-- Graceful SVG Avatar Fallback if image path is unavailable -->
+              <div id="profile-avatar-fallback" class="profile-avatar-fallback d-none" aria-hidden="true">
+                <span class="fallback-monogram">PJ</span>
+                <span class="fallback-title">Parth Jirapure</span>
+              </div>
+            </div>
+
+            <!-- Profile Status Card -->
+            <div class="profile-status-card">
+              <div class="status-indicator-ping">
+                <span class="ping-circle"></span>
+                <span class="ping-dot"></span>
+              </div>
+              <div class="status-content">
+                <span class="status-title">B.Tech CSE (AI &amp; ML)</span>
+                <span class="status-subtitle">Symbiosis Institute of Technology, Nagpur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ========================================================
+         3. ABOUT ME SECTION
+         ======================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">BACKGROUND &amp; PHILOSOPHY</p>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Academic Narrative -->
+          <div class="about-narrative reveal-on-scroll">
+            <p class="about-lead">
+              Third-year AI and ML-focused Computer Science student at <strong>Symbiosis Institute of Technology, Nagpur</strong> (a constituent of Symbiosis International Deemed University, Pune), who enjoys building intelligent software end-to-end—from training models on real data to developing cloud-connected apps and Linux systems.
+            </p>
+            <p>
+              I have completed a formal AI/ML internship at <strong>Maincrafts Technology</strong> and developed <strong>EmpFlow</strong> (a cloud-based HR information system using Flutter, Dart, and Firebase) with my PBL team. Simultaneously, I strengthened my algorithmic problem-solving with the <strong>Infosys Springboard Data Structures &amp; Algorithms</strong> program in Python, mastered autonomous agents in <strong>Mastering Agentic AI</strong>, and achieved <strong>Red Hat RH124 &amp; AD141</strong> certifications.
+            </p>
+            <p>
+              Beyond the classroom, I actively apply technical skills in competitive and industrial settings. I volunteered and participated in <strong>SITank 2.0</strong> (Enthusia 5.0) at SIT Nagpur (receiving a Certificate of Appreciation), attended <strong>Advantage Vidarbha</strong>, and participated in the Fitness for Freedom 3 km run for the SIT Nagpur team.
+            </p>
+
+            <div class="about-strengths-box">
+              <h3 class="strengths-title">Core Academic Strengths</h3>
+              <ul class="strengths-list">
+                <li><strong>AI &amp; Machine Learning:</strong> Agentic AI workflows, Scikit-learn modeling, Random Forest, XGBoost, and end-to-end evaluation.</li>
+                <li><strong>Algorithmic Thinking:</strong> Solid grasp of time &amp; space complexity, recursion, and core data structures in Python.</li>
+                <li><strong>Systems &amp; Cloud Integration:</strong> Enterprise Linux administration (RH124/AD141), Bash automation, and Flutter/Firebase apps.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Column: Institutional & Academic Profile Card -->
+          <div class="about-card-col reveal-on-scroll">
+            <div class="glass-card info-summary-card">
+              <div class="info-card-header">
+                <span class="info-card-badge">Profile Overview</span>
+                <h3 class="info-card-title">Academic At-a-Glance</h3>
+              </div>
+
+              <dl class="academic-details-list">
+                <div class="detail-row">
+                  <dt class="detail-label">Institution</dt>
+                  <dd class="detail-value">Symbiosis Institute of Technology, Nagpur</dd>
+                </div>
+                <div class="detail-row">
+                  <dt class="detail-label">University</dt>
+                  <dd class="detail-value">Symbiosis International (Deemed University), Pune</dd>
+                </div>
+                <div class="detail-row">
+                  <dt class="detail-label">Degree Program</dt>
+                  <dd class="detail-value">B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</dd>
+                </div>
+                <div class="detail-row">
+                  <dt class="detail-label">Current Academic Standing</dt>
+                  <dd class="detail-value"><span class="highlight-pill">Third Year (Batch 2024–2028)</span></dd>
+                </div>
+                <div class="detail-row">
+                  <dt class="detail-label">Primary Specialization</dt>
+                  <dd class="detail-value">AI / Machine Learning &amp; Computer Systems</dd>
+                </div>
+                <div class="detail-row">
+                  <dt class="detail-label">Campus Location</dt>
+                  <dd class="detail-value">Wathoda, Nagpur, Maharashtra, India</dd>
+                </div>
+              </dl>
+
+              <div class="info-card-footer">
+                <div class="quote-box">
+                  <p class="quote-text">"Theory guides practice; practice tests theory."</p>
+                  <span class="quote-caption">— Approach to Engineering</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. EDUCATION SECTION
+         ======================================================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">ACADEMIC JOURNEY</p>
+          <h2 class="section-title">Education</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Primary Degree Card (B.Tech at SIT Nagpur) -->
+          <article class="timeline-item primary-education reveal-on-scroll">
+            <div class="timeline-marker">
+              <div class="marker-dot current"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content glass-card featured-education-card">
+              <div class="card-top-bar">
+                <span class="education-badge current-badge">Currently Enrolled &bull; 3rd Year</span>
+                <span class="education-period">2024 &ndash; 2028 (Batch)</span>
+              </div>
+              <h3 class="education-degree">B.Tech in Computer Science and Engineering (AI &amp; ML)</h3>
+              <h4 class="education-institution">Symbiosis Institute of Technology (SIT), Nagpur</h4>
+              <p class="institution-sub">Constituent of Symbiosis International (Deemed University), Pune</p>
+              
+              <div class="education-description">
+                <p>
+                  Undertaking specialized engineering curriculum emphasizing Artificial Intelligence, Machine Learning models, cloud-connected applications, algorithmic problem solving, and Linux system engineering. Active contributor in team PBL development (EmpFlow) and technical symposiums.
+                </p>
+              </div>
+
+              <!-- Relevant Coursework Chips -->
+              <div class="coursework-wrapper">
+                <span class="coursework-label">Relevant Academic Coursework:</span>
+                <div class="chip-container">
+                  <span class="chip">Artificial Intelligence &amp; ML</span>
+                  <span class="chip">Data Structures &amp; Algorithms in Python</span>
+                  <span class="chip">Red Hat Enterprise Linux (RH124 &amp; AD141)</span>
+                  <span class="chip">Database Management Systems &amp; SQL</span>
+                  <span class="chip">Object-Oriented Programming (Java, C++)</span>
+                  <span class="chip">Cloud Architectures &amp; Firebase</span>
+                  <span class="chip">Software Engineering &amp; IEEE Documentation</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Secondary Education Card: Class 12th HSC -->
+          <article class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content glass-card secondary-education-card">
+              <div class="card-top-bar">
+                <span class="education-badge completed-badge">Passed &bull; Certified</span>
+                <span class="education-period">Higher Secondary Certificate</span>
+              </div>
+              <h3 class="education-degree">Class 12th (HSC)</h3>
+              <h4 class="education-institution">Maharashtra State Board (HSC)</h4>
+              <p class="institution-sub">Science Stream &bull; Physics, Chemistry, Mathematics &amp; Computer Science</p>
+              <p class="education-description">
+                Built rigorous foundations in analytical mathematics, physics, and logical reasoning, preparing for advanced computer engineering and artificial intelligence coursework.
+              </p>
+            </div>
+          </article>
+
+          <!-- Secondary Education Card: Class 10th CBSE -->
+          <article class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content glass-card secondary-education-card">
+              <div class="card-top-bar">
+                <span class="education-badge completed-badge">Passed &bull; Certified</span>
+                <span class="education-period">Secondary School Examination</span>
+              </div>
+              <h3 class="education-degree">Class 10th (CBSE)</h3>
+              <h4 class="education-institution">Central Board of Secondary Education (CBSE)</h4>
+              <p class="institution-sub">All Core Academic Disciplines &bull; High Academic Standing</p>
+              <p class="education-description">
+                Graduated with comprehensive secondary education across science, mathematics, and humanities, fostering disciplined self-study habits and problem-solving curiosity.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. TECHNICAL SKILLS SECTION
+         ======================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">PRACTICAL COMPETENCIES</p>
+          <h2 class="section-title">Technical &amp; Professional Skills</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Comprehensive skill inventory directly aligned with my resume, industrial internship, and certified course credentials.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: Programming Languages (Direct from Resume) -->
+          <div class="glass-card skill-card reveal-on-scroll">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title">Programming Languages</h3>
+            </div>
+            <p class="skill-category-desc">Languages specified in resume for algorithms, backend modeling, systems, and mobile engineering.</p>
+            <ul class="skill-badge-list">
+              <li class="skill-badge primary-badge">Python <span class="badge-sub">Primary</span></li>
+              <li class="skill-badge primary-badge">Java <span class="badge-sub">OOP</span></li>
+              <li class="skill-badge">C</li>
+              <li class="skill-badge">C++</li>
+              <li class="skill-badge primary-badge">Dart <span class="badge-sub">Flutter</span></li>
+              <li class="skill-badge">SQL <span class="badge-sub">Database</span></li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 2: Tools & Frameworks (Direct from Resume) -->
+          <div class="glass-card skill-card reveal-on-scroll">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title">Tools &amp; Frameworks</h3>
+            </div>
+            <p class="skill-category-desc">Production toolchain and cloud frameworks used for cloud-connected applications and team development.</p>
+            <ul class="skill-badge-list">
+              <li class="skill-badge teal-badge">Flutter <span class="badge-sub">Cross-Platform</span></li>
+              <li class="skill-badge teal-badge">Firebase Authentication</li>
+              <li class="skill-badge teal-badge">Cloud Firestore</li>
+              <li class="skill-badge teal-badge">Firebase Storage</li>
+              <li class="skill-badge teal-badge">Firebase Cloud Messaging</li>
+              <li class="skill-badge primary-badge">Git &amp; GitHub <span class="badge-sub">VCS</span></li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 3: Soft Skills (Direct from Resume) -->
+          <div class="glass-card skill-card reveal-on-scroll">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrapper">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Soft Skills</h3>
+            </div>
+            <p class="skill-category-desc">Interpersonal strengths and collaborative attributes highlighted in resume and campus initiatives.</p>
+            <ul class="skill-badge-list">
+              <li class="skill-badge emerald-badge">Communication</li>
+              <li class="skill-badge emerald-badge">Teamwork <span class="badge-sub">PBL Team</span></li>
+              <li class="skill-badge emerald-badge">Leadership</li>
+              <li class="skill-badge emerald-badge">Problem Solving</li>
+              <li class="skill-badge emerald-badge">Time Management</li>
+              <li class="skill-badge emerald-badge">Adaptability</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         6. PROJECTS SECTION
+         ======================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">APPLIED ENGINEERING</p>
+          <h2 class="section-title">Academic &amp; Technical Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Projects reflecting real curricular training, certifications, and student competition participation. Click <strong>"View Details"</strong> to explore the system architecture and implementation.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filter-controls reveal-on-scroll" role="toolbar" aria-label="Project category filters">
+          <button class="filter-btn active" data-filter="all">All Projects (2)</button>
+          <button class="filter-btn" data-filter="mobile">Cloud &amp; Mobile</button>
+          <button class="filter-btn" data-filter="aiml">AI &amp; Machine Learning</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project Card 1: EmpFlow HR System -->
+          <article class="glass-card project-card reveal-on-scroll" data-category="mobile">
+            <div class="project-card-header">
+              <span class="project-category-tag tag-systems">Cloud &amp; Mobile</span>
+              <span class="project-context-tag">PBL Team Project (3 Members)</span>
+            </div>
+            <h3 class="project-title">EmpFlow: Cloud-Based HR Information System</h3>
+            <p class="project-brief">
+              Centralized platform to manage employee records in one place and streamline day-to-day HR workflows with role-based access, live search, QR code ID generation, and IEEE-format project documentation.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Dart</span>
+              <span class="tech-tag">Firestore</span>
+              <span class="tech-tag">Firebase Storage</span>
+              <span class="tech-tag">Cloud Messaging</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-primary open-modal-btn" data-modal="modal-project-1">
+                View Details
+              </button>
+              <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action" title="View GitHub Repositories">
+                GitHub Repo
+              </a>
+            </div>
+          </article>
+
+          <!-- Project Card 2: AQI Prediction ML -->
+          <article class="glass-card project-card reveal-on-scroll" data-category="aiml">
+            <div class="project-card-header">
+              <span class="project-category-tag tag-aiml">AI &amp; Machine Learning</span>
+              <span class="project-context-tag">Environmental AI Research</span>
+            </div>
+            <h3 class="project-title">AQI Prediction Using Machine Learning</h3>
+            <p class="project-brief">
+              Trained and benchmarked Random Forest, XGBoost, and K-Nearest Neighbors (KNN) algorithms on real-world air pollution metrics to evaluate predictive accuracy, with IoT sensor integration for live local AQI telemetry.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Random Forest</span>
+              <span class="tech-tag">XGBoost</span>
+              <span class="tech-tag">KNN</span>
+              <span class="tech-tag">IoT Ingestion</span>
+            </div>
+            <div class="project-card-actions">
+              <button class="btn btn-sm btn-primary open-modal-btn" data-modal="modal-project-2">
+                View Details
+              </button>
+              <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action" title="View GitHub Repositories">
+                Model Info
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         7. EXPERIENCE & INTERNSHIPS SECTION
+         ======================================================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">PROFESSIONAL WORK HISTORY</p>
+          <h2 class="section-title">Experience &amp; Internships</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Industrial engineering internship experience and regional summit delegate participation, focused on applied machine learning and technology modernization.
+          </p>
+        </div>
+
+        <div class="experience-list">
+          <!-- Experience Card 1: Maincrafts Technology Internship -->
+          <article class="glass-card experience-card reveal-on-scroll">
+            <div class="experience-header">
+              <div class="company-brand-meta">
+                <div class="company-logo-avatar">MT</div>
+                <div>
+                  <h3 class="experience-role">Artificial Intelligence &amp; Machine Learning (AI/ML) Intern</h3>
+                  <h4 class="experience-company">Maincrafts Technology</h4>
+                  <p class="experience-credentials-note">Intern ID: MT4268 &bull; MSME Reg: UDYAM-UP-75-0096043 &bull; www.maincrafts.com</p>
+                </div>
+              </div>
+              <div class="experience-timeline-badge">
+                <span class="timeline-duration">4 Weeks Duration</span>
+                <span class="timeline-dates">20 May 2026 &ndash; 20 June 2026</span>
+              </div>
+            </div>
+
+            <div class="experience-body">
+              <p class="experience-summary">
+                Successfully completed an intensive industrial internship in Artificial Intelligence &amp; Machine Learning (AI/ML) at Maincrafts Technology (Ministry of MSME, Govt. of India). Demonstrated dedication, professionalism, and a strong commitment to learning and contributing to machine learning projects.
+              </p>
+              <ul class="experience-points">
+                <li>Developed and benchmarked machine learning algorithms in Python across real-world datasets.</li>
+                <li>Worked on feature engineering, data normalization, model evaluation metrics, and predictive pipelines.</li>
+                <li>Collaborated under professional engineering practices adhering to MSME-certified technical workflows.</li>
+              </ul>
+
+              <!-- Distinct Document Showcase: Certificate of Internship vs Offer Letter -->
+              <div class="experience-documents-container">
+                <h4 class="exp-docs-heading">Official Verification &amp; Industrial Documentation</h4>
+                <p class="exp-docs-subheading">Both official documents issued by Maincrafts Technology under MSME Reg. UDYAM-UP-75-0096043:</p>
+
+                <div class="experience-docs-grid">
+                  <!-- Document 1: Certificate of Internship (Completion) -->
+                  <div class="exp-doc-card">
+                    <div class="exp-doc-header">
+                      <span class="exp-doc-badge completion-badge">&#10003; Completion Certificate</span>
+                      <h5 class="exp-doc-title">Certificate of Internship</h5>
+                      <p class="exp-doc-desc">Verifies successful completion of 4-week industrial AI/ML internship (20 May &ndash; 20 June 2026).</p>
+                    </div>
+                    <div class="exp-doc-preview open-cert-modal-btn" data-cert="assets/maincrafts-certificate-preview.png" data-cert-title="Certificate of Internship &bull; Maincrafts Technology (AI/ML)" data-pdf="assets/maincrafts-certificate-of-internship.pdf" data-badge="Maincrafts &bull; Certificate of Internship" role="button" tabindex="0" title="Click to view full Certificate of Internship">
+                      <img src="assets/maincrafts-certificate-preview.png" alt="Maincrafts Technology Certificate of Internship" class="exp-doc-img" loading="lazy">
+                      <div class="exp-doc-overlay">
+                        <span>Click to expand &#x26F6;</span>
+                      </div>
+                    </div>
+                    <div class="exp-doc-actions">
+                      <button class="doc-link-pill open-cert-modal-btn" data-cert="assets/maincrafts-certificate-preview.png" data-cert-title="Certificate of Internship &bull; Maincrafts Technology (AI/ML)" data-pdf="assets/maincrafts-certificate-of-internship.pdf" data-badge="Maincrafts &bull; Certificate of Internship">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                        Preview Certificate
+                      </button>
+                      <a href="assets/maincrafts-certificate-of-internship.pdf" target="_blank" rel="noopener noreferrer" class="doc-link-pill" download="Parth_Jirapure_Maincrafts_Certificate.pdf">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        Download PDF
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Document 2: Internship Offer Letter (Selection) -->
+                  <div class="exp-doc-card">
+                    <div class="exp-doc-header">
+                      <span class="exp-doc-badge offer-badge">&#9733; Offer &amp; Appointment</span>
+                      <h5 class="exp-doc-title">Internship Offer Letter</h5>
+                      <p class="exp-doc-desc">Official appointment letter selecting Parth P. Jirapure for the AI/ML internship role.</p>
+                    </div>
+                    <div class="exp-doc-preview open-cert-modal-btn" data-cert="assets/maincrafts-offer-letter-preview.png" data-cert-title="Internship Offer Letter &bull; Maincrafts Technology" data-pdf="assets/maincrafts-internship-offer.pdf" data-badge="Maincrafts &bull; Internship Offer Letter" role="button" tabindex="0" title="Click to view full Offer Letter">
+                      <img src="assets/maincrafts-offer-letter-preview.png" alt="Maincrafts Technology Internship Offer Letter" class="exp-doc-img" loading="lazy">
+                      <div class="exp-doc-overlay">
+                        <span>Click to expand &#x26F6;</span>
+                      </div>
+                    </div>
+                    <div class="exp-doc-actions">
+                      <button class="doc-link-pill open-cert-modal-btn" data-cert="assets/maincrafts-offer-letter-preview.png" data-cert-title="Internship Offer Letter &bull; Maincrafts Technology" data-pdf="assets/maincrafts-internship-offer.pdf" data-badge="Maincrafts &bull; Internship Offer Letter">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                        Preview Offer Letter
+                      </button>
+                      <a href="assets/maincrafts-internship-offer.pdf" target="_blank" rel="noopener noreferrer" class="doc-link-pill" download="Parth_Jirapure_Maincrafts_Offer_Letter.pdf">
+                        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        Download PDF
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-footer">
+              <span class="verified-tag">&#10003; MSME Verified &bull; UDYAM-UP-75-0096043</span>
+              <span class="experience-credentials-note">Candidate ID: MT4268 &bull; Verified Industrial Record</span>
+            </div>
+          </article>
+
+          <!-- Experience Card 2: Advantage Vidarbha 2026 Summit -->
+          <article class="glass-card experience-card reveal-on-scroll">
+            <div class="experience-header">
+              <div class="company-brand-meta">
+                <div class="company-logo-avatar summit-avatar">AV</div>
+                <div>
+                  <h3 class="experience-role">Student Delegate &amp; Volunteer</h3>
+                  <h4 class="experience-company">Advantage Vidarbha 2026 &bull; Industrial Expo &amp; Summit</h4>
+                  <p class="experience-credentials-note">Khasdar Audyogik Mahotsav &bull; Business Conclave &amp; Investment Summit</p>
+                </div>
+              </div>
+              <div class="experience-timeline-badge">
+                <span class="timeline-duration">Regional Conclave</span>
+                <span class="timeline-dates">2026 Industrial Summit</span>
+              </div>
+            </div>
+
+            <div class="experience-body">
+              <p class="experience-summary">
+                Served as volunteer and student delegate at Vidarbha's mega industrial exposition and business conclave, engaging with industry pioneers, MSME representatives, and technology delegates regarding technology modernization and regional industrial growth.
+              </p>
+
+              <!-- Advantage Vidarbha Event Photo -->
+              <div class="experience-media open-cert-modal-btn" data-cert="assets/advantage-vidarbha.jpg" data-cert-title="Parth Jirapure at Advantage Vidarbha 2026 Industrial Summit" data-badge="Advantage Vidarbha &bull; Industrial Summit" role="button" tabindex="0" title="Click to view full summit photo">
+                <img src="assets/advantage-vidarbha.jpg" alt="Parth Jirapure at Advantage Vidarbha 2026 Industrial Expo &amp; Summit" class="experience-media-img" loading="lazy">
+                <div class="experience-media-caption">
+                  <span>Advantage Vidarbha 2026 &bull; Student Delegate</span>
+                  <span class="media-hint">Click to expand &#x26F6;</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-footer">
+              <button class="doc-link-pill open-cert-modal-btn" data-cert="assets/advantage-vidarbha.jpg" data-cert-title="Parth Jirapure at Advantage Vidarbha 2026 Industrial Summit" data-badge="Advantage Vidarbha &bull; Industrial Summit">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                View Summit Photo
+              </button>
+              <span class="verified-tag">&#10003; Industry Exposure</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         8. CERTIFICATIONS AND ACHIEVEMENTS SECTION
+         ======================================================== -->
+    <section class="section certifications-section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">VERIFIABLE CREDENTIALS</p>
+          <h2 class="section-title">Certifications &amp; Achievements</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Credentials backed by verifiable official issuing authorities. Links lead directly to official verification portals or original certificate records.
+          </p>
+        </div>
+
+        <!-- Certifications Filter Controls -->
+        <div class="cert-filter-controls reveal-on-scroll" role="toolbar" aria-label="Certification category filters">
+          <button class="cert-filter-btn active" data-filter="all">All Credentials (5)</button>
+          <button class="cert-filter-btn" data-filter="aiml">AI &amp; Machine Learning (1)</button>
+          <button class="cert-filter-btn" data-filter="systems">Linux &amp; Systems (1)</button>
+          <button class="cert-filter-btn" data-filter="programming">Algorithms &amp; Python (2)</button>
+          <button class="cert-filter-btn" data-filter="institutional">Institutional &amp; Hackathon (1)</button>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert Card 1: Mastering Agentic AI (Udemy - Aug 2026) -->
+          <article class="glass-card cert-card reveal-on-scroll" data-category="aiml">
+            <div class="cert-card-preview open-cert-modal-btn" data-cert="assets/udemy-agentic-ai-preview.png" data-cert-title="Mastering Agentic AI: From Prompt to Protocols to Production" data-pdf="assets/udemy-agentic-ai-certificate.pdf" data-verify="https://ude.my/UC-2c9ad4ec-f68d-49d7-84f5-786e32c4de1a" data-badge="Udemy &bull; Agentic AI" title="Click to view full certificate">
+              <img src="assets/udemy-agentic-ai-preview.png" alt="Mastering Agentic AI Certificate Preview" loading="lazy">
+              <div class="cert-card-preview-overlay">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand</span>
+              </div>
+            </div>
+
+            <div class="cert-card-header">
+              <div class="cert-badge-icon udemy-bg">
+                <span class="cert-icon-text">UD</span>
+              </div>
+              <div class="cert-meta">
+                <span class="cert-issuer">Udemy &bull; Vinit Singh</span>
+                <span class="cert-date">August 22, 2026</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">Mastering Agentic AI: From Prompt to Protocols to Production</h3>
+            <p class="cert-desc">
+              Completed 38 total hours of cutting-edge training in autonomous agent architectures, multi-agent protocols, LLM prompt engineering, and production agent deployment pipelines.
+            </p>
+
+            <div class="cert-details-meta">
+              <span class="meta-tag">Course Duration: 38 Total Hours</span>
+              <span class="meta-tag">Certificate No: UC-2c9ad4ec-f68d-49d7-84f5-786e32c4de1a</span>
+              <span class="meta-tag">Instructor: Vinit Singh</span>
+            </div>
+
+            <div class="cert-actions">
+              <a href="https://ude.my/UC-2c9ad4ec-f68d-49d7-84f5-786e32c4de1a" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                Verify on Udemy
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+              <button class="btn btn-sm btn-secondary open-cert-modal-btn" data-cert="assets/udemy-agentic-ai-preview.png" data-cert-title="Mastering Agentic AI: From Prompt to Protocols to Production" data-pdf="assets/udemy-agentic-ai-certificate.pdf" data-verify="https://ude.my/UC-2c9ad4ec-f68d-49d7-84f5-786e32c4de1a" data-badge="Udemy &bull; Agentic AI">
+                Preview
+              </button>
+              <a href="assets/udemy-agentic-ai-certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action">
+                View PDF
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert Card 3: Red Hat RH124 (Red Hat Academy - Mar 31, 2026) -->
+          <article class="glass-card cert-card reveal-on-scroll" data-category="systems">
+            <div class="cert-card-preview open-cert-modal-btn" data-cert="assets/redhat-rh124-preview.png" data-cert-title="Red Hat System Administration I (RH124) - Ver. 10" data-pdf="assets/redhat-rh124-certificate.pdf" data-verify="https://www.credly.com/badges/9b31863c-e30a-4866-ba87-8a3b20402d93" data-badge="Red Hat Academy &bull; RH124" title="Click to view Red Hat RH124 certificate">
+              <img src="assets/redhat-rh124-preview.png" alt="Red Hat RH124 Certificate Preview" loading="lazy">
+              <div class="cert-card-preview-overlay">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand</span>
+              </div>
+            </div>
+
+            <div class="cert-card-header">
+              <div class="cert-badge-icon redhat-bg">
+                <span class="cert-icon-text">RH</span>
+              </div>
+              <div class="cert-meta">
+                <span class="cert-issuer">Red Hat Academy</span>
+                <span class="cert-date">March 31, 2026</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">Red Hat System Administration I (RH124 &ndash; RHA) - Ver. 10</h3>
+            <p class="cert-desc">
+              Completed 40 credit hours of rigorous training under Red Hat Global Learning Services. Focus on core Linux administration tasks, file handling, command line tools, and service administration.
+            </p>
+
+            <div class="cert-details-meta">
+              <span class="meta-tag">Credit Hours: 40</span>
+              <span class="meta-tag">Course Code: RH124</span>
+              <span class="meta-tag">Signatory: Karl Reynolds (Senior Director)</span>
+            </div>
+
+            <div class="cert-actions">
+              <a href="https://www.credly.com/badges/9b31863c-e30a-4866-ba87-8a3b20402d93" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                Verify on Credly
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+              <button class="btn btn-sm btn-secondary open-cert-modal-btn" data-cert="assets/redhat-rh124-preview.png" data-cert-title="Red Hat System Administration I (RH124) - Ver. 10" data-pdf="assets/redhat-rh124-certificate.pdf" data-verify="https://www.credly.com/badges/9b31863c-e30a-4866-ba87-8a3b20402d93" data-badge="Red Hat Academy &bull; RH124">
+                Preview
+              </button>
+              <a href="assets/redhat-rh124-certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action">
+                View PDF
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert Card 4: SITank 2.0 Appreciation (SIT Nagpur - Feb 28, 2026) -->
+          <article class="glass-card cert-card reveal-on-scroll" data-category="institutional">
+            <div class="cert-card-preview open-cert-modal-btn" data-cert="assets/sitank-certificate.jpg" data-cert-title="SITank 2.0 Certificate of Appreciation &bull; Enthusia 5.0" data-badge="SIT Nagpur &bull; Institutional Credential" title="Click to view SITank certificate photo">
+              <img src="assets/sitank-certificate.jpg" alt="SITank 2.0 Certificate Preview" loading="lazy">
+              <div class="cert-card-preview-overlay">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand</span>
+              </div>
+            </div>
+
+            <div class="cert-card-header">
+              <div class="cert-badge-icon sitank-bg">
+                <span class="cert-icon-text">SIT</span>
+              </div>
+              <div class="cert-meta">
+                <span class="cert-issuer">Symbiosis Institute of Technology</span>
+                <span class="cert-date">February 26 &ndash; 28, 2026</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">Certificate of Appreciation &bull; SITank 2.0 (Enthusia 5.0)</h3>
+            <p class="cert-desc">
+              Awarded for valuable contribution as a participant and volunteer during SITank 2.0 at SIT Nagpur under Symbiosis International (Deemed University), Pune.
+            </p>
+
+            <div class="cert-details-meta">
+              <span class="meta-tag">Fest: Enthusia 5.0</span>
+              <span class="meta-tag">Director: Dr. Nitin Rakesh</span>
+              <span class="meta-tag">Incharge: Dr. Snehlata Wankhade</span>
+            </div>
+
+            <div class="cert-actions">
+              <button class="btn btn-sm btn-primary open-cert-modal-btn" data-cert="assets/sitank-certificate.jpg" data-cert-title="SITank 2.0 Certificate of Appreciation &bull; Enthusia 5.0" data-badge="SIT Nagpur &bull; Institutional Credential">
+                Preview Certificate
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+              </button>
+              <a href="assets/sitank-certificate.jpg" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action">
+                View Full Photo
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert Card 5: Infosys Springboard DSA (Infosys - Oct 22, 2025) -->
+          <article class="glass-card cert-card reveal-on-scroll" data-category="programming">
+            <div class="cert-card-preview open-cert-modal-btn" data-cert="assets/infosys-dsa-preview.png" data-cert-title="Data Structures and Algorithms using Python - Part 1 &bull; Infosys" data-pdf="assets/infosys-dsa-certificate.pdf" data-verify="https://verify.onwingspan.com" data-badge="Infosys Springboard &bull; DSA" title="Click to view Infosys certificate">
+              <img src="assets/infosys-dsa-preview.png" alt="Infosys DSA Certificate Preview" loading="lazy">
+              <div class="cert-card-preview-overlay">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand</span>
+              </div>
+            </div>
+
+            <div class="cert-card-header">
+              <div class="cert-badge-icon infosys-bg">
+                <span class="cert-icon-text">INF</span>
+              </div>
+              <div class="cert-meta">
+                <span class="cert-issuer">Infosys Springboard</span>
+                <span class="cert-date">October 22, 2025</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">Data Structures and Algorithms using Python &ndash; Part 1</h3>
+            <p class="cert-desc">
+              Issued by Infosys Limited (Education, Training and Assessment). Comprehensive certification covering foundational algorithmic principles, data structures, and Python implementations.
+            </p>
+
+            <div class="cert-details-meta">
+              <span class="meta-tag">Domain: DSA in Python</span>
+              <span class="meta-tag">Signatory: Satheesha B. Nanjappa</span>
+              <span class="meta-tag">Wingspan Verified</span>
+            </div>
+
+            <div class="cert-actions">
+              <a href="https://verify.onwingspan.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                Verify on Wingspan
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+              <button class="btn btn-sm btn-secondary open-cert-modal-btn" data-cert="assets/infosys-dsa-preview.png" data-cert-title="Data Structures and Algorithms using Python - Part 1 &bull; Infosys" data-pdf="assets/infosys-dsa-certificate.pdf" data-verify="https://verify.onwingspan.com" data-badge="Infosys Springboard &bull; DSA">
+                Preview
+              </button>
+              <a href="assets/infosys-dsa-certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action">
+                View PDF
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert Card 6: Red Hat AD141 Python (Red Hat Academy - Mar 23, 2025) -->
+          <article class="glass-card cert-card reveal-on-scroll" data-category="programming">
+            <div class="cert-card-preview open-cert-modal-btn" data-cert="assets/redhat-ad141-preview.png" data-cert-title="Python Programming with Red Hat (AD141) - Ver. 9.0" data-pdf="assets/redhat-ad141-python-certificate.pdf" data-verify="https://www.credly.com/badges/6955c0a1-74fe-4062-bcb1-c602272dfce0" data-badge="Red Hat Academy &bull; AD141" title="Click to view Red Hat AD141 certificate">
+              <img src="assets/redhat-ad141-preview.png" alt="Red Hat AD141 Python Certificate Preview" loading="lazy">
+              <div class="cert-card-preview-overlay">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                <span>Click to Expand</span>
+              </div>
+            </div>
+
+            <div class="cert-card-header">
+              <div class="cert-badge-icon redhat-bg">
+                <span class="cert-icon-text">RH</span>
+              </div>
+              <div class="cert-meta">
+                <span class="cert-issuer">Red Hat Academy</span>
+                <span class="cert-date">March 23, 2025</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">Python Programming with Red Hat (AD141 &ndash; RHA) - Ver. 9.0</h3>
+            <p class="cert-desc">
+              Completed 32 credit hours of specialized Python programming within the Red Hat Enterprise Linux ecosystem. Covers core syntax, file manipulation, and automation scripting.
+            </p>
+
+            <div class="cert-details-meta">
+              <span class="meta-tag">Credit Hours: 32</span>
+              <span class="meta-tag">Course Code: AD141 - RHA</span>
+              <span class="meta-tag">Signatory: Karl Reynolds (Senior Director)</span>
+            </div>
+
+            <div class="cert-actions">
+              <a href="https://www.credly.com/badges/6955c0a1-74fe-4062-bcb1-c602272dfce0" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                Verify on Credly
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+              <button class="btn btn-sm btn-secondary open-cert-modal-btn" data-cert="assets/redhat-ad141-preview.png" data-cert-title="Python Programming with Red Hat (AD141) - Ver. 9.0" data-pdf="assets/redhat-ad141-python-certificate.pdf" data-verify="https://www.credly.com/badges/6955c0a1-74fe-4062-bcb1-c602272dfce0" data-badge="Red Hat Academy &bull; AD141">
+                Preview
+              </button>
+              <a href="assets/redhat-ad141-python-certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action">
+                View PDF
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         8b. OFFICIAL RESUME / CURRICULUM VITAE SECTION
+         ======================================================== -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">CURRICULUM VITAE &amp; CREDENTIALS</p>
+          <h2 class="section-title">Resume / CV</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Official academic and technical resume of Parth Jirapure. View the verified document below or download the PDF for recruitment and academic review.
+          </p>
+        </div>
+
+        <!-- Resume Action Toolbar -->
+        <div class="resume-toolbar glass-card reveal-on-scroll">
+          <div class="resume-toolbar-info">
+            <div class="resume-file-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <div>
+              <h3 class="resume-file-name">Parth_Jirapure_Resume.pdf</h3>
+              <p class="resume-file-meta">B.Tech CSE (AI &amp; ML) &bull; Symbiosis Institute of Technology, Nagpur &bull; Updated October 2026</p>
+            </div>
+          </div>
+          <div class="resume-toolbar-actions">
+            <a href="assets/parth-jirapure-resume.pdf" download="Parth_Jirapure_Resume.pdf" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download PDF</span>
+            </a>
+            <button class="btn btn-secondary open-cert-modal-btn" data-cert="assets/resume-preview.png" data-cert-title="Parth Jirapure - Official Resume" data-pdf="assets/parth-jirapure-resume.pdf" data-badge="Official Resume &bull; SIT Nagpur">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              <span>Interactive Preview</span>
+            </button>
+            <a href="assets/parth-jirapure-resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-action">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>Open in New Tab</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Resume Interactive Layout -->
+        <div class="resume-grid">
+          <!-- Left Column: Document Visual Display -->
+          <div class="resume-preview-col reveal-on-scroll">
+            <div class="glass-card resume-sheet-card">
+              <div class="resume-sheet-header">
+                <span class="sheet-indicator">Document Viewer</span>
+                <span class="sheet-pages">Page 1 of 1 &bull; 100% Authentic</span>
+              </div>
+              <div class="resume-sheet-wrapper open-cert-modal-btn" data-cert="assets/resume-preview.png" data-cert-title="Parth Jirapure - Official Resume" data-pdf="assets/parth-jirapure-resume.pdf" data-badge="Official Resume &bull; SIT Nagpur" title="Click to open full-screen interactive view">
+                <img src="assets/resume-preview.png" alt="Parth Jirapure Resume Preview" class="resume-preview-img" loading="lazy">
+                <div class="resume-sheet-overlay">
+                  <span class="sheet-zoom-btn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    Click for Full Screen Preview
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Structured Resume Overview -->
+          <div class="resume-summary-col reveal-on-scroll">
+            <!-- Summary Card 1: Key Profile Highlights -->
+            <div class="glass-card resume-info-card">
+              <h3 class="resume-card-title">
+                <span class="card-title-icon">&#9679;</span>
+                Resume Highlights &amp; Fast Facts
+              </h3>
+              <dl class="resume-fast-facts">
+                <div class="fact-row">
+                  <dt>Candidate</dt>
+                  <dd>Parth Jirapure</dd>
+                </div>
+                <div class="fact-row">
+                  <dt>Degree</dt>
+                  <dd>B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</dd>
+                </div>
+                <div class="fact-row">
+                  <dt>University</dt>
+                  <dd>Symbiosis Institute of Technology, Nagpur (SIU)</dd>
+                </div>
+                <div class="fact-row">
+                  <dt>Academic Batch</dt>
+                  <dd><span class="highlight-pill">2024 &ndash; 2028</span></dd>
+                </div>
+                <div class="fact-row">
+                  <dt>Contact</dt>
+                  <dd>parthjirapure@gmail.com &bull; +91 8788977922</dd>
+                </div>
+                <div class="fact-row">
+                  <dt>Location</dt>
+                  <dd>Nagpur, Maharashtra, India</dd>
+                </div>
+                <div class="fact-row">
+                  <dt>Profiles</dt>
+                  <dd>
+                    <a href="https://linkedin.com/in/parth-p-jirapure-3142ab435" target="_blank" rel="noopener noreferrer" class="text-link">LinkedIn Profile</a> &bull;
+                    <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="text-link">GitHub Profile</a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+
+            <!-- Summary Card 2: Career Objective -->
+            <div class="glass-card resume-info-card">
+              <h3 class="resume-card-title">
+                <span class="card-title-icon">&#9679;</span>
+                Career Objective &amp; Focus
+              </h3>
+              <p class="resume-objective-text">
+                "Third-year AI and ML-focused Computer Science student at Symbiosis Institute of Technology, Nagpur, who enjoys building intelligent software end to end, from training models on real data to developing cloud-connected apps. Completed an AI/ML internship, building EmpFlow (HR Management System), and holding certifications in Agentic AI, Red Hat RHEL &amp; Python, and Infosys Springboard DSA."
+              </p>
+            </div>
+
+            <!-- Summary Card 3: Key Skills at a Glance -->
+            <div class="glass-card resume-info-card">
+              <h3 class="resume-card-title">
+                <span class="card-title-icon">&#9679;</span>
+                Skills Inventory (From Resume)
+              </h3>
+              <div class="resume-skills-block">
+                <span class="skills-label">Programming Languages:</span>
+                <div class="chip-container">
+                  <span class="chip">Python</span>
+                  <span class="chip">Java</span>
+                  <span class="chip">C</span>
+                  <span class="chip">C++</span>
+                  <span class="chip">Dart</span>
+                  <span class="chip">SQL</span>
+                </div>
+              </div>
+              <div class="resume-skills-block mt-3">
+                <span class="skills-label">Tools &amp; Frameworks:</span>
+                <div class="chip-container">
+                  <span class="chip">Flutter</span>
+                  <span class="chip">Firebase (Auth, Firestore, Storage, Cloud Messaging)</span>
+                  <span class="chip">Git</span>
+                  <span class="chip">GitHub</span>
+                </div>
+              </div>
+              <div class="resume-skills-block mt-3">
+                <span class="skills-label">Soft Skills:</span>
+                <div class="chip-container">
+                  <span class="chip">Communication</span>
+                  <span class="chip">Teamwork</span>
+                  <span class="chip">Leadership</span>
+                  <span class="chip">Problem Solving</span>
+                  <span class="chip">Time Management</span>
+                  <span class="chip">Adaptability</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         9. CURRENTLY LEARNING & GOALS SECTION
+         ======================================================== -->
+    <section class="section learning-section" id="learning">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">CONTINUOUS ACADEMIC GROWTH</p>
+          <h2 class="section-title">Currently Learning &amp; Goals</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="learning-grid">
+          <!-- Currently Exploring -->
+          <div class="glass-card learning-card reveal-on-scroll">
+            <div class="learning-card-header">
+              <div class="learning-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+              </div>
+              <h3 class="learning-card-title">What I Am Currently Learning</h3>
+            </div>
+            <ul class="learning-items-list">
+              <li>
+                <strong>Advanced Neural Architectures:</strong> Exploring deep learning fundamentals, multilayer perceptrons, and computer vision workflows in Python.
+              </li>
+              <li>
+                <strong>Ansible &amp; Linux Automation:</strong> Progressing from RH124 to enterprise configuration management and playbook automation.
+              </li>
+              <li>
+                <strong>Systems Performance &amp; Benchmarking:</strong> Studying operating system resource optimization and concurrent execution models.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Academic & Professional Goals -->
+          <div class="glass-card learning-card reveal-on-scroll">
+            <div class="learning-card-header">
+              <div class="learning-icon goal-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="12 6 12 12 16 14"></polygon></svg>
+              </div>
+              <h3 class="learning-card-title">Academic &amp; Professional Goals</h3>
+            </div>
+            <ul class="learning-items-list">
+              <li>
+                <strong>Final Year Capstone Project (SIT Nagpur):</strong> Architecting a high-impact engineering capstone combining machine learning with reliable system architecture.
+              </li>
+              <li>
+                <strong>Red Hat RHCSA Certification:</strong> Preparing for the Red Hat Certified System Administrator examination to solidify enterprise Linux credentials.
+              </li>
+              <li>
+                <strong>Industry Internship:</strong> Pursuing software development and AI engineering internships to contribute to production codebases.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         10. CONTACT SECTION
+         ======================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <p class="section-subtitle">COMMUNICATION &amp; NETWORK</p>
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Open for academic collaboration, project discussions, and internship opportunities. Contact me directly using working, authentic channels below.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info Column -->
+          <div class="glass-card contact-info-card reveal-on-scroll">
+            <h3 class="contact-card-title">Contact Information</h3>
+            <p class="contact-card-desc">
+              Feel free to reach out via university or professional email. I typically respond within 24 to 48 hours.
+            </p>
+
+            <div class="contact-links-list">
+              <!-- Email Item with Instant Copy -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Email Address</span>
+                  <a href="mailto:parthjirapure@gmail.com" class="contact-value" id="email-address-text">
+                    parthjirapure@gmail.com
+                  </a>
+                </div>
+                <button class="copy-email-btn" id="copy-email-btn" title="Copy email address to clipboard" aria-label="Copy email address to clipboard">
+                  <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  <span class="copy-tooltip">Copy</span>
+                </button>
+              </div>
+
+              <!-- Phone Number Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Phone &bull; WhatsApp</span>
+                  <a href="tel:+918788977922" class="contact-value">
+                    +91 87889 77922
+                  </a>
+                </div>
+              </div>
+
+              <!-- Institution / Location Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Academic Campus &bull; Location</span>
+                  <span class="contact-value-static">Symbiosis Institute of Technology, Mouza - Wathoda, Nagpur, Maharashtra &ndash; 440008, India</span>
+                </div>
+              </div>
+
+              <!-- Professional Network Links -->
+              <div class="contact-social-pills">
+                <a href="https://linkedin.com/in/parth-p-jirapure-3142ab435" target="_blank" rel="noopener noreferrer" class="social-btn" title="Connect on LinkedIn">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span>LinkedIn Profile</span>
+                </a>
+                <a href="https://github.com/ParthJirapure" target="_blank" rel="noopener noreferrer" class="social-btn" title="View GitHub Repositories">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub Profile</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Genuine Client-Side Email Generator (Not a Fake Form!) -->
+          <div class="glass-card contact-form-card reveal-on-scroll">
+            <h3 class="contact-card-title">Send a Direct Message</h3>
+            <p class="contact-card-desc">
+              To guarantee privacy and academic authenticity without relying on unverified third-party backends, this client prepares your message and launches your native mail application directly.
+            </p>
+
+            <form id="direct-mail-form" class="direct-mail-form">
+              <div class="form-group">
+                <label for="mail-sender-name" class="form-label">Your Name</label>
+                <input type="text" id="mail-sender-name" class="form-input" placeholder="e.g. Prof. Sharma / Recruiter" required>
+              </div>
+
+              <div class="form-group">
+                <label for="mail-subject" class="form-label">Subject</label>
+                <input type="text" id="mail-subject" class="form-input" placeholder="e.g. Academic Inquiry / Project Review / Internship" required>
+              </div>
+
+              <div class="form-group">
+                <label for="mail-body" class="form-label">Message Content</label>
+                <textarea id="mail-body" class="form-textarea" rows="4" placeholder="Write your message or inquiry here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Compose in Email Client</span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       11. FOOTER SECTION
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="footer-name">Parth P. Jirapure</span>
+        <span class="footer-affiliation">Third-Year B.Tech Undergraduate &bull; Symbiosis Institute of Technology, Nagpur</span>
+        <p class="footer-sub">Symbiosis International (Deemed University), Pune, Maharashtra, India</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Parth Jirapure. All rights reserved. Built with semantic HTML5, CSS3, &amp; Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top of page" title="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ========================================================
+       INTERACTIVE MODALS
+       ======================================================== -->
+
+  <!-- Modal 1: EmpFlow Cloud HR System -->
+  <div class="modal-backdrop" id="modal-project-1" role="dialog" aria-modal="true" aria-labelledby="modal-1-title" aria-hidden="true">
+    <div class="modal-window">
+      <button class="modal-close-btn" aria-label="Close details modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge tag-systems">Cloud &amp; Mobile</span>
+        <h3 class="modal-title" id="modal-1-title">EmpFlow: Cloud-Based HR Information System</h3>
+        <p class="modal-subtitle">Project-Based Learning (PBL) &bull; Team Project (3 Members) &bull; IEEE Format Paper</p>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4>Problem Solved</h4>
+          <p>
+            Traditional human resource workflows suffer from fragmented employee record-keeping, slow manual search, paper-based credential verification, and clumsy report generation. EmpFlow solves this by centralizing employee records in one cloud platform to streamline day-to-day HR administrative operations.
+          </p>
+        </div>
+        <div class="modal-section">
+          <h4>Key Features &amp; Engineering Decisions</h4>
+          <ul>
+            <li><strong>Role-Based Authentication:</strong> Secure login with tiered permissions separating HR administrators from general staff.</li>
+            <li><strong>Live Employee Search:</strong> Instant indexed search across departments, employee IDs, and roles powered by Cloud Firestore.</li>
+            <li><strong>QR Code Employee ID:</strong> Automatic generation and scanning of unique cryptographic QR codes for rapid employee identification.</li>
+            <li><strong>Automated Export Engine:</strong> On-demand export of filtered employee rosters and department analytics into formatted PDF and Excel documents.</li>
+            <li><strong>Real-time Cloud Messaging:</strong> Firebase Cloud Messaging (FCM) integration for instant company-wide alerts and policy notifications.</li>
+          </ul>
+        </div>
+        <div class="modal-section">
+          <h4>Personal Contribution &amp; Documentation</h4>
+          <p>
+            Architected Flutter UI components, Firestore schema rules, and Firebase Storage integration for digital document records. Co-authored the formal academic project paper prepared in IEEE publication format.
+          </p>
+        </div>
+        <div class="modal-section">
+          <h4>Technologies Used</h4>
+          <div class="chip-container">
+            <span class="chip">Flutter</span>
+            <span class="chip">Dart</span>
+            <span class="chip">Cloud Firestore</span>
+            <span class="chip">Firebase Storage</span>
+            <span class="chip">Cloud Messaging</span>
+            <span class="chip">PDF / Excel Export</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-action">Close Window</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: AQI Prediction ML -->
+  <div class="modal-backdrop" id="modal-project-2" role="dialog" aria-modal="true" aria-labelledby="modal-2-title" aria-hidden="true">
+    <div class="modal-window">
+      <button class="modal-close-btn" aria-label="Close details modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge tag-aiml">AI / Machine Learning</span>
+        <h3 class="modal-title" id="modal-2-title">AQI Prediction Using Machine Learning</h3>
+        <p class="modal-subtitle">Environmental AI &amp; Applied Supervised Learning &bull; Python</p>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4>Problem Solved</h4>
+          <p>
+            Urban air pollution metrics (PM2.5, PM10, NO2, CO, SO2) exhibit complex non-linear dynamics, making standard statistical averages unreliable for timely health advisories. This project builds a multi-model comparative machine learning benchmark to forecast local Air Quality Index (AQI) readings with maximum precision.
+          </p>
+        </div>
+        <div class="modal-section">
+          <h4>Key Features &amp; Engineering Decisions</h4>
+          <ul>
+            <li><strong>Comparative Model Benchmarking:</strong> Trained and benchmarked Random Forest, XGBoost, and K-Nearest Neighbors (KNN) algorithms on real-world pollution records.</li>
+            <li><strong>Data Preprocessing Pipeline:</strong> Imputed sparse pollutant measurements, engineered diurnal cycle features, and standardized continuous numerical variables.</li>
+            <li><strong>IoT Telemetry Exploration:</strong> Designed input integration protocols for physical IoT air sensors to stream real-time local air samples into the inference pipeline.</li>
+            <li><strong>Performance Evaluation:</strong> Evaluated models using Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared coefficient metrics.</li>
+          </ul>
+        </div>
+        <div class="modal-section">
+          <h4>Personal Contribution &amp; Key Findings</h4>
+          <p>
+            Identified that ensemble tree-based models (XGBoost and Random Forest) significantly outperformed KNN due to their capability to capture sudden seasonal shifts and meteorological anomalies.
+          </p>
+        </div>
+        <div class="modal-section">
+          <h4>Technologies Used</h4>
+          <div class="chip-container">
+            <span class="chip">Python</span>
+            <span class="chip">Scikit-learn</span>
+            <span class="chip">XGBoost</span>
+            <span class="chip">Random Forest</span>
+            <span class="chip">Pandas &amp; NumPy</span>
+            <span class="chip">IoT Sensors</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-action">Close Window</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Certificate & Resume Document Preview Modal -->
+  <div class="modal-backdrop" id="modal-certificate-preview" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title" aria-hidden="true">
+    <div class="modal-window modal-window-lg">
+      <button class="modal-close-btn" aria-label="Close document modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge tag-pitch" id="cert-modal-badge">Verifiable Document</span>
+        <h3 class="modal-title" id="cert-modal-title">Document Preview</h3>
+      </div>
+      <div class="modal-body cert-preview-body">
+        <div class="cert-img-container">
+          <img id="cert-preview-img" src="assets/sitank-certificate.jpg" alt="Document Preview" class="cert-full-img">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-footer-actions">
+          <a id="cert-modal-verify-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" style="display: none;">
+            Verify Live Credential
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <a id="cert-modal-pdf-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-action" style="display: none;" download>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download PDF
+          </a>
+        </div>
+        <button class="btn btn-secondary modal-close-action">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Quick Alerts -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
